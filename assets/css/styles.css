@@ -1,0 +1,293 @@
+:root{
+    --primayColor: #3D5A80;
+    --secondaryColor: #98C1D9;
+    --tercearyColor: #E0FBFC;
+    --textColor: #000;
+    --textColorWhite: #fff;
+    --tamañoAncho: 1200px;
+    --colorGris: #eff1f8;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Menu de navegacion*/
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0000006f;
+    margin: 0 auto;
+    color: var(--textColorWhite);
+    height: 60px;
+}
+
+body{
+    background-image: url(/assets/img/cabeza.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--secondaryColor);
+    font-family: 'Roboto', sans-serif;
+    background-attachment: fixed;
+}
+
+.curriculum p{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow: 2px 2px var(--textColor);
+    margin: 1rem 0;
+    display: inline-block;
+}
+
+.curriculum img{
+    width: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.elemento_menu_entrada{
+    display: block;
+    padding: 1rem 5px;
+    float: left;
+}
+
+.elemento_menu_entrada a{
+    margin: 0 1.5rem;
+    color: var(--textColorWhite);
+    text-decoration: none;
+    font-size: 1.1rem;
+    height: 100%;
+    text-shadow: 1px 1px var(--textColor);
+}
+
+.elemento_menu_entrada:hover{
+    background-color: #000;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.iconos button i:hover{
+    cursor: pointer;
+}
+
+
+.iconos button i{
+    margin-left: 10px;
+    font-size: 1.5rem;
+    color: var(--textColorWhite);
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.iconos button{
+    background-color: transparent;
+    border: none;
+}
+
+.banner{
+    width: var(--tamañoAncho);
+    display: block;
+    margin: 0 auto;
+}
+
+/*Barra separacion*/
+.barra{
+    width: 400px;
+    height: 2px;
+    background-color: var(--secondaryColor);
+    margin: 0 auto;
+}
+
+/*Perfil principal*/
+.seccion{
+    height: 600px;
+    width: 850px;
+    background-color: beige;
+    margin: 1.2rem auto;
+    position: static;
+    border: 5px solid var(--textColorWhite);
+}
+
+.sobre_mi{
+    text-align: center;
+}
+
+.sobre_mi h1{
+    margin-top: 2rem;
+    display: inline-block;
+    font-size: 2.5rem;
+    text-shadow: 5px 2px 1px rgba(220, 20, 60, 0.466);
+    color: var(--primayColor);
+    margin-bottom: 5px;
+}
+
+.sobre_mi h2{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+.sobre_mi img{
+    width: 200px;
+    border: 3px solid var(--textColor);
+    border-radius: 100%;
+    display: in-block;
+    margin: 1.5rem auto;
+    align-content: center;
+}
+
+.sobre_mi p{
+    margin: 0 8rem;
+    text-align: center;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+
+
+/*Demas secciones*/
+.titulo div h2{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    text-shadow: 5px 2px 1px rgba(220, 20, 60, 0.466);
+    color: var(--primayColor);
+    text-align: center;
+}
+
+/*Seccion formacion*/
+.parrafo1{
+    margin-top: 3rem;
+}
+
+.parrafo1, .parrafo2{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+/*Seccion experiencia*/
+#experiencia{
+    display: flex;
+}
+
+.experiencia{
+    text-align: justify;
+    margin: 1rem auto;
+    display: inline-block;
+    margin: 0 auto;
+
+}
+
+.experiencia2{
+    margin-top: 1rem;
+}
+
+.experiencia ul{
+    margin-left: 3rem;
+}
+
+.titulo-experiencia{
+    margin-top: 3rem;
+}
+
+
+/*Habilidades recuadros*/
+.habilidad{
+    border: 4px solid var(--textColor);
+    max-width: 25%;
+    height: 100px;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    color: var(--textColorWhite);
+    font-weight: bolder;
+    font-weight: 1.5;
+}
+
+.habilidades1{
+    text-align: center;
+    
+}
+
+.habilidades2{
+    margin-top: 3rem;
+}
+
+.habilidad-ingles{
+    background-color: var(--secondaryColor);
+    color: var(--textColor);
+}
+
+.habilidad-sql{
+    background-color: var(--primayColor);
+}
+
+.habilidad-web{
+    background-color: var(--secondaryColor);
+    color: var(--textColor);
+}
+
+
+/*Barras de progreso*/
+progress {
+    width: 100%;
+    height: 5px;
+    background-color: var(--primayColor);
+    border: none;
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #007bff;
+    border-radius: 10px;
+}
+
+/*Seccion hobbies*/
+.hobbies-recuadro div img{
+    width: 125px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.hobbies h2{
+    margin-bottom: 2rem;
+}
+
+.hobbies-recuadro div h3{
+    display: inline-block;
+    margin-left: 30px;
+    text-align: start;
+}
+
+.hobbies{
+    text-align: center;
+}
+
+
+
+
+/*Contacto*/
+.contacto{
+    width: 850px;
+    margin: 0 auto 1rem;
+    background-color: #000000d0;
+    height: 120px;
+    border: 5px solid var(--textColorWhite);
+    color: var(--secondaryColor);
+}
+
+.contacto h3, .contacto p{
+    text-align: center;
+}
