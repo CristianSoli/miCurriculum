@@ -8,6 +8,12 @@
     --colorGris: #eff1f8;
 }
 
+p, li{
+    padding: 0.3rem 0.2rem;
+}
+
+
+
 *{
     padding: 0;
     margin: 0;
@@ -17,7 +23,7 @@
 .menu{
     display: flex;
     justify-content: space-around;
-    background-color: #0000006f;
+    background-color: #000000;
     margin: 0 auto;
     color: var(--textColorWhite);
     height: 60px;
@@ -64,7 +70,7 @@ body{
 }
 
 .elemento_menu_entrada:hover{
-    background-color: #000;
+    background-color: #353535;
     cursor: pointer;
     transform: scale(1.2);
 }
@@ -116,7 +122,7 @@ body{
 }
 
 .sobre_mi h1{
-    margin-top: 2rem;
+    margin-top: 5rem;
     display: inline-block;
     font-size: 2.5rem;
     text-shadow: 5px 2px 1px rgba(220, 20, 60, 0.466);
@@ -167,7 +173,14 @@ header{
 
 .parrafo1, .parrafo2{
     text-align: center;
-    margin: 1rem 0;
+    margin: 1rem auto;
+    background-color: var(--primayColor);
+    width: 600px;
+    padding: 10px;
+    border-radius: 10rem;
+    color: whitesmoke;
+    border: 2px whitesmoke;
+    border: 2px solid black;
 }
 
 /*Seccion experiencia*/
@@ -176,30 +189,63 @@ header{
 }
 
 .experiencia{
-    text-align: justify;
     margin: 1rem auto;
+}
+
+.experiencia h2{
+    margin-bottom: 3rem;
+}
+
+.experiencia1 h3, .experiencia2 h3{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.salto{
+    margin-bottom: 1rem;
+}
+
+.experiencia2, .experiencia1{
+    z-index: 1;
     display: inline-block;
-    margin: 0 auto;
-
+    border-radius: 1rem;
+    width: 300px;
+    height: 350px;
+    vertical-align: top;
+    padding: 20px;
+    border: 2px solid var(--textColorWhite);
+    margin: 5px;
+    background-color: var(--secondaryColor);
+    text-align: center;
 }
 
-.experiencia2{
-    margin-top: 1rem;
+.experiencia1 img{
+    height: 200px;
+    display: block;
+    margin: 1rem auto;
 }
+
+.experiencia2 img{
+    height: 200px;
+    display: block;
+    margin: 1rem auto;
+}
+
+
+
 
 .experiencia ul{
-    margin-left: 3rem;
+    margin-left: 2.5rem;
+    
 }
 
-.titulo-experiencia{
-    margin-top: 3rem;
-}
+
 
 
 /*Habilidades recuadros*/
 .habilidad{
     border: 4px solid var(--textColor);
-    max-width: 25%;
+    width: 180px;
     height: 100px;
     display: inline-block;
     padding: 20px;
@@ -208,6 +254,7 @@ header{
     color: var(--textColorWhite);
     font-weight: bolder;
     font-weight: 1.5;
+    border-radius: 1rem;
 }
 
 .habilidades1{
@@ -216,7 +263,11 @@ header{
 }
 
 .habilidades2{
-    margin-top: 3rem;
+    margin-top: 4rem;
+}
+
+.habilidades3{
+    margin-top: 1rem;
 }
 
 .habilidad-ingles{
@@ -271,6 +322,16 @@ progress::-webkit-progress-value {
     text-align: start;
 }
 
+.programacion_elemento{
+    display: inline-block;
+    width: 280px;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
 .hobbies{
     text-align: center;
 }
@@ -290,4 +351,29 @@ progress::-webkit-progress-value {
 
 .contacto h3, .contacto p{
     text-align: center;
+}
+
+
+.gallery {
+    max-width: 400px;
+}
+
+
+.gallery-container img{
+    display: inline-block;
+    width: 100%;
+}
+
+.gallery-container p{
+    text-align: center;
+
+}
+
+.gallery-container span{
+    font-weight: 700;
+}
+
+
+.gallery{
+    margin: 3rem auto;
 }

@@ -10,8 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=MuseoModerno:ital,wght@0,300;0,400;1,300&family=Roboto:wght@100;400;500&family=Sofia&display=swap" rel="stylesheet">
     <title>Document</title>
+    <script src="/assets/js/javascript.js"></script>
 </head>
 <body>
+    
     <!--Menu de navegacion-->
     <header>
         <nav class="menu">
@@ -26,6 +28,7 @@
                     <li class="elemento_menu_entrada"><a href="#experiencia">Experiencia</a></li>
                     <li class="elemento_menu_entrada"><a href="#habilidades">Habilidades</a></li>
                     <li class="elemento_menu_entrada"><a href="#hobbies">Hobbies</a></li>
+                    <li class="elemento_menu_entrada"><a href="#Proyectos">Proyectos</a></li>
                 </ul>
             </div>
             <div class="iconos">
@@ -44,10 +47,10 @@
                 <h1>Cristian Solis Reyna</h1>
                 <div class="barra"></div>
                 <h2>Ingeniero en sistemas</h2>
-                <img src="/assets/img/8a11cf794d7fdd0556da85b49cf8fc7e.jpg" alt="vaquita">
+                <img src="/assets/img/rosto3.jpg" alt="vaquita">
                 <h2>¿Quien soy?</h2>
                 <p>
-                 Soy un estudiante de ingeneria en sistemas computacionales con la aspiracion de algun dia poder trabajar en la industria del desarrollo de software. Me gustan las bases de datos relacionales y me encanta la programacion web.
+                    Soy un estudiante de ingeneria en sistemas computacionales con la aspiracion de algun dia poder trabajar en la industria del desarrollo de software. Me gustan las bases de datos relacionales y me encanta la programacion web.
                 </p>
 
             </div>
@@ -59,12 +62,12 @@
             <div class="estudios">
                 <h2>Formacion</h2>
                 <div class="parrafo1">
-                    <h3>Tecnico en informatica (2015-2018)</h3>
-                    <p>Colegio Nacional de Educacion Profesional Tecnica.</p>
-                </div>
-                <div class="parrafo2">
                     <h3>Ingeneria en Sistemas Computacionales (2019-2024)</h3>
                     <p>Intituto Tecnologico Superior de San Pedro de las Colonias.</p>
+                </div>
+                <div class="parrafo2">
+                    <h3>Tecnico bachiller en informatica (2015-2018)</h3>
+                    <p>Colegio Nacional de Educacion Profesional Tecnica.</p>
                 </div>
             </div>
         </section>
@@ -72,25 +75,17 @@
         <section class="seccion titulo" id="experiencia">
             <div class="experiencia">
                 <h2>Experiencia</h2>
-                <div class="experiencia1">
-                    <h3 class="titulo-experiencia">Las noticias San Pedro (2017-2018)</h3>
-                    <h3>Editor de video</h3>
-                    <ul>
-                        <li>Edicion de imagenes</li>
-                        <li>Trabajo de campo</li>
-                        <li>Entrevistas</li>
-                        <li>Edicion de video</li>
-                        <li>Creacion de guiones</li>
-                    </ul>
+                <div class="experiencias">
+                    <div class="experiencia1">
+                        <img src="/assets/img/[removal.ai]_tmp-64237bf8cbaa9.png" alt="Las noticias San Pedro">
+                        <h3>Libro San Pedro Coahuila Magia e Historia (2018-2019)</h3>
+                        <h3 class="salto">Capturista y diseñador</h3>     
+                    </div>
+                    <div class="experiencia2">
+                        <img src="/assets/img/[removal.ai]_tmp-64237bce856cc.png" alt="San Pedro origen magia e historia">
+                        <h3>Las noticias San Pedro (2017-2018) Editor de video</h3>
+                    </div>
                 </div>
-                <div class="experiencia2">
-                    <h3>Libro San Pedro Coahuila Magia e Historia (2018-2019)</h3>
-                    <h3>Capturista y diseñador</h3>
-                    <ul>
-                        <li>Digitalizacion de texto</li>
-                        <li>Diseño del libro</li>
-                        <li>Cotizacion de precios</li>
-                    </ul>
             </div>
         </section>
 
@@ -107,8 +102,22 @@
                         <progress value="50" max="100"></progress>
                     </div>
                     <div class="habilidad-web habilidad">
-                        <h3>HTML & CSS</h3>
+                        <h3>HTML</h3>
+                        <progress value="60" max="100"></progress>
+                    </div>
+                </div>
+                <div class="habilidades3">
+                    <div class="habilidad-sql habilidad">
+                        <h3>CSS</h3>
+                        <progress value="50" max="100"></progress>
+                    </div>
+                    <div class="habilidad-ingles habilidad">
+                        <h3>JavasScript</h3>
                         <progress value="30" max="100"></progress>
+                    </div>
+                    <div class="habilidad-sql habilidad">
+                        <h3>C#</h3>
+                        <progress value="40" max="100"></progress>
                     </div>
                 </div>
             </div>
@@ -120,16 +129,41 @@
                 <div class="hobbies-recuadro">
                     <div class="programacion">
                         <img src="/assets/img/programacion.png" alt="Programacion">
-                        <h3>Estudiar programacion</h3>
+                        <div class="programacion_elemento">
+                            <h3>Estudiar programacion</h3>
+                            <p>Durante mis ratos libres estudio programacion web</p>
+                        </div>
+                        
                     </div>
                     <div class="ejercicio">
                         <img src="/assets/img/pesas.png" alt="Pesas">
-                        <h3>Hacer ejercicio</h3>
+                        <div class="programacion_elemento">
+                            <h3>Hacer actividad fisica</h3>
+                            <p>Hago almenos una hora de ejercicio al dia </p>
+                        </div>
                     </div>
                     <div class="videojuegos">
                         <img src="/assets/img/R.png" alt="Control de videojuegos">
-                        <h3>Jugar videojuegos</h3>
+                        <div class="programacion_elemento">
+                            <h3>Jugar videojuegos</h3>
+                            <p>De vez en cuando me doy un gusto y juego un videojuego de mi agrado</p>
+                        </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion proyectos titulo" id="proyectos">
+            <div>
+                <h2>Proyectos</h2>
+            </div>
+            <div class="gallery">
+                <div class="gallery-container">
+                    
+                    <a href="https://github.com/CristianSoli/CaftTec.git" >
+                        <img src="/assets/img/Presentación1.png" alt="Imagen 1">
+                    </a>
+                    <p><span>CafTec:</span> punto de venta</p>
                 </div>
             </div>
         </section>
